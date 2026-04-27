@@ -15,3 +15,6 @@
 - `api/stripe_fee.ts` — $29 Stripe Checkout
 - `api/generate_notice.ts` — RAG engine generating state-specific legal notices (Notice to Landlord, Code Enforcement Complaint)
 - `.sovereign_memory.md` — Architectural log
+
+---
+?? **Sovereign Empire Hub:** [Master Index](file:///e:/hermes/github_fleet/EMPIRE_VAULT_INDEX.md) | [Command Center](file:///e:/hermes/github_fleet/paperclip-website/frontend/SovereignDashboard.tsx)
