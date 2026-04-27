@@ -34,9 +34,16 @@ export const LandingPage = () => {
           Your landlord is legally required to maintain livable conditions. If they refuse to fix dangerous issues, every state gives you the right to withhold rent or "Repair and Deduct." Our AI drafts the exact legal notice that protects you from eviction while forcing repairs.
         </p>
 
-        <button className="bg-red-600 text-white px-12 py-5 rounded-xl font-black text-xl hover:bg-red-700 transition shadow-[0_10px_40px_rgba(220,38,38,0.3)] w-full sm:w-auto">
-          Generate Legal Notice ($29)
-        </button>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <button className="bg-red-600 text-white px-12 py-5 rounded-xl font-black text-xl hover:bg-red-700 transition shadow-[0_10px_40px_rgba(220,38,38,0.3)] w-full sm:w-auto">
+            Generate Legal Notice ($29)
+          </button>
+          
+          <button className="bg-slate-900 text-white px-12 py-5 rounded-xl font-black text-xl hover:bg-black transition shadow-lg w-full sm:w-auto flex flex-col items-center">
+            <span>Mail it to my Landlord</span>
+            <span className="text-[10px] font-normal opacity-70 uppercase">Certified Mail + Proof of Service</span>
+          </button>
+        </div>
         <p className="text-sm text-slate-500 mt-6 font-medium">Covers all 50 states. Includes "Repair and Deduct" and "Rent Withholding" options based on your jurisdiction.</p>
       </main>
 
